@@ -1,13 +1,12 @@
 
 function Fstmanha (chr, pos, score,lightpos,snps)
-	#Fstmanha (chr, pos, score,lightpos,snps)
-  % Alternating shades for chromosomes.
-  %clr1 = rgb('midnightblue');
-  %clr2 = rgb('cornflowerblue');
-%clr1=unifrnd(0,1,1,3);
-%clr2=unifrnd(0,11,3);
-  % These are the SNPs to highlight in the Manhattan plot.
-
+	%Fstmanha (chr, pos, score,lightpos,snps)
+ 	% Alternating shades for chromosomes.
+  	%clr1 = rgb('midnightblue');
+  	%clr2 = rgb('cornflowerblue');
+	%clr1=unifrnd(0,1,1,3);
+	%clr2=unifrnd(0,11,3);
+  	% These are the SNPs to highlight in the Manhattan plot.
   % Get the set of chromosomes represented by the SNPs.
   chrs = unique(chr);
   chrs = chrs(:)';
